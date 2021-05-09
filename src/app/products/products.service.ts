@@ -2,7 +2,9 @@ import { Injectable } from "@angular/core";
 import { of, combineLatest} from "rxjs";
 import { map } from "rxjs/operators";
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class ProductsService {
 
   public getProducts() {

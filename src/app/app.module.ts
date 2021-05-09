@@ -3,16 +3,18 @@ import { BrowserModule } from "@angular/platform-browser";
 
 import { AppComponent } from "./app.component";
 import { ProductsModule } from "./products/products.module";
-
+import { ProductsService } from './products/products.service';
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    ProductsModule
+    ProductsModule,
+    CommonModule
   ],
-  providers: [],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
