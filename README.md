@@ -4,7 +4,9 @@ To display the provided product data within a grid and apply the filtering optio
 
 # Instructions:
 
-- Please use Git to commit your changes
+- Please use Git locally to commit your changes as you progress
+
+## Enhance the website:
 
 - Given the provided Angular project complete the following instructions.
 
@@ -27,4 +29,13 @@ To display the provided product data within a grid and apply the filtering optio
 - All filters should be inclusive.
 	- If searching for “shoe” with the brand selected as “Nike” and In Stock, then only products matching all three filters should be shown in the grid.
 
-- Run the tests and fix the failing test.
+## Fix broken test:
+- Run the tests to see one of the tests fails
+  - Make changes to the logic under test so that it passes.
+  
+  
+# Send code back:
+- Zip up the project folder and send it back via email
+  - Please make sure the node_modules folder is excluded.
+- In the email please mention your favourite book or movie from the last year.
+
