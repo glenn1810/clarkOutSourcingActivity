@@ -1,0 +1,39 @@
+<h2>Welcome to {{name}}</h2>
+
+<div class="card m-1 p-2">
+  <p>Apply BubbleSort: collection = [ 3, 0, 2, 5, -1, 4, 1, 1000, 250, -6, -1000 ]</p>
+  <button class="btn btn-primary btn-block" type="button" (click)="createBubbleSort()">See the result</button>
+  <ul>
+    <li *ngFor="let value of bubbleSortResult"> {{value}}</li>
+  </ul>
+</div>
+
+<div class="card m-1 p-2">
+  <p>Apply Fibonacci for 10th:</p>
+  <button class="btn btn-primary btn-block" type="button" (click)="createFibonacci(10)">See the result</button>
+  <ul>
+    <li *ngFor="let value of fibonacciResult"> {{value}}</li>
+  </ul>
+</div>
+
+<div class="card m-1 p-2">
+  <p>How many "cow" on this array: ["cow", ["fish", "pig", "cow", ["cow", "cat", "cow"]]] </p>
+  <button class="btn btn-primary btn-block" type="button" (click)="createItemCounter('cow')">See the result</button>
+  <span>{{itemCounter}}</span>
+</div>
+
+<div class="card m-1 p-2">
+  <p>Verified the input number belongs: 12 </p>
+  <p>min: 3 </p>
+  <p>max: 10 </p>
+  <button class="btn btn-primary btn-block" type="button" (click)="createInputVerifier(12)">See the result</button>
+  <span>{{inputVerifierResult}}</span>
+</div>
+
+<div class="card m-1 p-2">
+  <p>Remove extra spaces: '   Hello Geeks  .  Welcome ,    Do you love Geeks , Geeks  ? '</p>
+  <button class="btn btn-primary btn-block" type="button" (click)="createRemoveExtraSpaces('   Hello Geeks  .  Welcome ,    Do you love Geeks , Geeks  ? ')">See the result</button>
+  <span class="mt-2">{{extraSpacesResult}}</span>
+</div>
+
+
